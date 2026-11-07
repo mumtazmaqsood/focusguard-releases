@@ -1,0 +1,25 @@
+name: Idea or feedback
+description: Suggest an improvement or tell us how FocusGuard works for you
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea or feedback
+      description: What would make FocusGuard more useful? What was confusing?
+    validations:
+      required: true
+  - type: dropdown
+    id: helpful
+    attributes:
+      label: Has FocusGuard helped you spend less time on Facebook/X?
+      options:
+        - "Yes, a lot"
+        - "A little"
+        - "Not really"
+        - "Too early to say"
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model and Android version (optional)

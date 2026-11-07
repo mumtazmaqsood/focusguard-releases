@@ -1,0 +1,57 @@
+name: Bug report
+description: Something doesn't work as expected
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing FocusGuard! Please don't post your partner's codes or phone numbers here.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open facebook.com in Chrome
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: FocusGuard version
+      description: Shown at the bottom of FocusGuard › Settings.
+      placeholder: "0.6.0"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model and Android version
+      placeholder: "Samsung Galaxy A51, Android 13"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      multiple: true
+      options:
+        - Chrome
+        - Facebook app
+        - X (Twitter) app
+        - Partner setup / codes
+        - Settings
+        - Installing / turning on the blocker
+        - Other
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)

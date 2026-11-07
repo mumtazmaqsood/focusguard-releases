@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install guide and help
+    url: https://github.com/mumtazmaqsood/focusguard-releases#install-about-2-minutes
+    about: Read this first if you can't install FocusGuard or switch on the blocker.
