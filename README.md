@@ -2,7 +2,7 @@
 
 **Spend less time on Facebook and X.** FocusGuard gives Facebook and X (Twitter) one shared daily allowance
 (60 minutes by default), whether you use them in **Chrome** or in their **apps**. When the time is used up,
-they're blocked until midnight. Need more time? Only your **partner** can give it, with a one-time code from
+they're blocked until midnight. They're also only allowed **from 14:00 to 19:00**. Need more time? Only your **partner** can give it, with a one-time code from
 their Google Authenticator that you ask for on WhatsApp.
 
 > 🧪 **Early test version.** Please [send feedback](../../issues/new/choose): bugs, ideas, anything that confused you.
@@ -32,7 +32,9 @@ Never sleeping apps** and add FocusGuard.
 
 ## How to use it
 - The home screen shows how many minutes are left today.
-- At the limit, Facebook and X show a **"Time's up"** screen. **Go to home screen** takes you out.
+- At the limit, Facebook and X show a **"Time's up"** screen. Before 14:00 and from 19:00 on, they show
+  **"Not allowed right now"**. In Chrome, **Keep browsing other sites** takes you out (other websites keep
+  working). In the apps, **Go to home screen** does.
 - **More time:** tap **Ask partner on WhatsApp**. Your partner replies with the current code from Google
   Authenticator, you enter it, and you get bonus minutes (15 by default). Each code works once.
 - Raising your limit or bonus, or changing your partner, also needs a partner code. Making the rules stricter
