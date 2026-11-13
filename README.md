@@ -3,7 +3,8 @@
 **Spend less time on Facebook and X.** FocusGuard gives Facebook and X (Twitter) one shared daily allowance
 (60 minutes by default), whether you use them in **Chrome** or in their **apps**. When the time is used up,
 they're blocked until midnight. They're also only allowed during your **allowed hours** (14:00–19:00 by default). You can
-add more **websites and apps** to the block list. Need more time? Only your **partner** can give it, with a one-time code from
+add more **websites and apps** to the block list. Stuck scrolling Reels or videos? After 15 minutes non-stop,
+a short **scrolling break** interrupts the loop. Need more time? Only your **partner** can give it, with a one-time code from
 their Google Authenticator that you ask for on WhatsApp.
 
 > 🧪 **Early test version.** Please [send feedback](../../issues/new/choose): bugs, ideas, anything that confused you.
@@ -38,9 +39,14 @@ Never sleeping apps** and add FocusGuard.
   working). In the apps, **Go to home screen** does.
 - **More time:** tap **Ask partner on WhatsApp**. Your partner replies with the current code from Google
   Authenticator, you enter it, and you get bonus minutes (15 by default). Each code works once.
+- **Scrolling breaks:** after 15 minutes of non-stop Facebook or X (in the apps, or on video pages such as Reels
+  in Chrome), a **"Time for a break"** screen blocks them for 10 minutes. Leaving for 5 minutes resets the count.
+  The break time is added to the end of today's allowed hours, and it never uses up your daily minutes. A partner
+  code can end a break early. You can change the times, or watch other sites and apps, in Settings.
 - **Settings** lets you change the allowed hours and add websites (e.g. instagram.com) or apps to the block list.
   Everything on the list shares the daily limit and the hours.
-- Raising your limit or bonus, widening the hours, removing something from the block list, or changing your partner
+- Raising your limit or bonus, widening the hours, removing something from the block list, loosening scrolling
+  breaks, or changing your partner
   also needs a partner code. Making the rules stricter
   doesn't.
 
@@ -62,6 +68,8 @@ See [PRIVACY.md](PRIVACY.md).
 - The blocker can still be switched off in Accessibility settings, or the app uninstalled. Stronger protection
   is planned.
 - Changing the phone's date *and then restarting the phone* can start a new day early.
+- Scrolling breaks: in the Facebook/X apps any non-stop use counts (videos can't be told apart from the feed).
+  In Chrome, X videos only count when opened full-screen.
 
 ## Feedback
 [Open an issue](../../issues/new/choose) → **Bug report** or **Idea**. A free GitHub account is needed.
