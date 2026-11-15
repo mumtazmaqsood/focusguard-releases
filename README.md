@@ -74,6 +74,7 @@ See [PRIVACY.md](PRIVACY.md).
   is planned.
 - Changing the phone's date *and then restarting the phone* can start a new day early.
 - Child mode: some preset apps are matched by their website only. Add a missing app with **Add app**.
+- YouTube Shorts in Chrome are only noticed while Chrome's address bar is visible. After scrolling (bar hidden), a Short opened from search results can play. The YouTube app also has Shorts; block the app under My own items if needed.
 - Scrolling breaks: in the Facebook/X apps any non-stop use counts (videos can't be told apart from the feed).
   In Chrome, X videos only count when opened full-screen.
 
