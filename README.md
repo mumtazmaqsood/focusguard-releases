@@ -3,7 +3,7 @@
 **Spend less time on Facebook and X.** FocusGuard gives Facebook and X (Twitter) one shared daily allowance
 (60 minutes by default), whether you use them in **Chrome** or in their **apps**. When the time is used up,
 they're blocked until midnight. They're also only allowed during your **allowed hours** (14:00–19:00 by default). You can
-add more **websites and apps** to the block list. Stuck scrolling Reels or videos? After 15 minutes non-stop,
+add more **websites and apps** to the limited list. Stuck scrolling Reels or videos? After 15 minutes non-stop,
 a short **scrolling break** interrupts the loop. Need more time? Only your **partner** can give it, with a one-time code from
 their Google Authenticator that you ask for on WhatsApp.
 
@@ -44,16 +44,17 @@ Never sleeping apps** and add FocusGuard.
   The break time is added to the end of today's allowed hours, and it never uses up your daily minutes. A partner
   code can end a break early. You can change the times, or watch other sites and apps, in Settings.
 - **Child mode** (for a child's phone, off by default): harmful and distracting apps and sites such as TikTok,
-  Snapchat, Instagram, random-chat and betting sites are **blocked all day**, even inside the allowed hours, and no
-  code opens them. YouTube Shorts are blocked in Chrome. A parent can allow an app with a code; it then follows the
-  normal allowed hours and daily minutes. On a phone supervised by Family Link, a parent turns on
+  Snapchat, Instagram, random-chat and betting sites are **blocked all day**, even inside the allowed hours. On the
+  block screen a **parent code opens that one app for 15 minutes**. The parent can add their own sites and apps, or
+  remove one completely (with a code). Child mode is kept separate from the adult's list. On a phone supervised by
+  Family Link, a parent turns on
   **"Apps from unknown sources"** in Family Link to install or update FocusGuard, then turns it off again.
 - **Activity report** (child mode): the parent opens FocusGuard › Activity report with their code to see today's and
   yesterday's app time by category, blocked attempts, searches and websites in Chrome, and can send a summary on
   WhatsApp. Kept for two days only, on the phone.
-- **Settings** lets you change the allowed hours and add websites (e.g. instagram.com) or apps to the block list.
+- **Settings** lets you change the allowed hours and add websites (e.g. instagram.com) or apps to **"Limited apps and sites (allowed hours only)"**.
   Everything on the list shares the daily limit and the hours.
-- Raising your limit or bonus, widening the hours, removing something from the block list, loosening scrolling
+- Raising your limit or bonus, widening the hours, removing something from the limited list, loosening scrolling
   breaks, or changing your partner
   also needs a partner code. Making the rules stricter
   doesn't.
@@ -77,7 +78,6 @@ See [PRIVACY.md](PRIVACY.md).
   is planned.
 - Changing the phone's date *and then restarting the phone* can start a new day early.
 - Child mode: some preset apps are matched by their website only. Add a missing app with **Add app**.
-- YouTube Shorts in Chrome are only noticed while Chrome's address bar is visible. After scrolling (bar hidden), a Short opened from search results can play. The YouTube app also has Shorts; block the app under My own items if needed.
 - Scrolling breaks: in the Facebook/X apps any non-stop use counts (videos can't be told apart from the feed).
   In Chrome, X videos only count when opened full-screen.
 
