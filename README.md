@@ -43,6 +43,11 @@ Never sleeping apps** and add FocusGuard.
   in Chrome), a **"Time for a break"** screen blocks them for 10 minutes. Leaving for 5 minutes resets the count.
   The break time is added to the end of today's allowed hours, and it never uses up your daily minutes. A partner
   code can end a break early. You can change the times, or watch other sites and apps, in Settings.
+- **Child mode** (for a child's phone, off by default): harmful and distracting apps and sites such as TikTok,
+  Snapchat, Instagram, random-chat and betting sites are **blocked all day**, even inside the allowed hours, and no
+  code opens them. YouTube Shorts are blocked in Chrome. A parent can allow an app with a code; it then follows the
+  normal allowed hours and daily minutes. On a phone supervised by Family Link, a parent turns on
+  **"Apps from unknown sources"** in Family Link to install or update FocusGuard, then turns it off again.
 - **Settings** lets you change the allowed hours and add websites (e.g. instagram.com) or apps to the block list.
   Everything on the list shares the daily limit and the hours.
 - Raising your limit or bonus, widening the hours, removing something from the block list, loosening scrolling
@@ -68,6 +73,7 @@ See [PRIVACY.md](PRIVACY.md).
 - The blocker can still be switched off in Accessibility settings, or the app uninstalled. Stronger protection
   is planned.
 - Changing the phone's date *and then restarting the phone* can start a new day early.
+- Child mode: some preset apps are matched by their website only. Add a missing app with **Add app**.
 - Scrolling breaks: in the Facebook/X apps any non-stop use counts (videos can't be told apart from the feed).
   In Chrome, X videos only count when opened full-screen.
 

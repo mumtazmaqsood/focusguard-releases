@@ -7,13 +7,13 @@ FocusGuard is built so that **nothing leaves your phone**.
 ## What the app accesses
 FocusGuard uses Android's **Accessibility service** for one purpose: to limit Facebook, X and the other sites and apps on your block list.
 - It checks **which app is open** (the app's package name only).
-- In **Chrome only**, it reads the **web address in the address bar** to recognise blocked sites (like facebook.com) and Facebook/X video pages (like Reels), for scrolling breaks.
+- In **Chrome only**, it reads the **web address in the address bar** to recognise blocked sites (like facebook.com) and Facebook/X video pages (like Reels), for scrolling breaks, and YouTube Shorts pages in child mode.
 - It does **not** read messages, passwords, page content or anything typed in other apps.
 
 ## What the app stores (on your phone only)
 - Minutes of use of your blocked sites and apps per day, and minutes added to your allowed hours by breaks, kept for 7 days.
 - The start and end time of the latest scrolling break. Non-stop minutes are only kept in memory.
-- Your settings: daily limit, bonus minutes, allowed hours, block list, scrolling breaks and your partner's WhatsApp number.
+- Your settings: daily limit, bonus minutes, allowed hours, block list, scrolling breaks, child mode and its always-blocked list, and your partner's WhatsApp number.
 - Partner unlock counters (last code used, wrong attempts).
 - The partner unlock secret, stored in the **Android Keystore**, where even FocusGuard can't read it back.
 
