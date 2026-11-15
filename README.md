@@ -48,6 +48,9 @@ Never sleeping apps** and add FocusGuard.
   code opens them. YouTube Shorts are blocked in Chrome. A parent can allow an app with a code; it then follows the
   normal allowed hours and daily minutes. On a phone supervised by Family Link, a parent turns on
   **"Apps from unknown sources"** in Family Link to install or update FocusGuard, then turns it off again.
+- **Activity report** (child mode): the parent opens FocusGuard › Activity report with their code to see today's and
+  yesterday's app time by category, blocked attempts, searches and websites in Chrome, and can send a summary on
+  WhatsApp. Kept for two days only, on the phone.
 - **Settings** lets you change the allowed hours and add websites (e.g. instagram.com) or apps to the block list.
   Everything on the list shares the daily limit and the hours.
 - Raising your limit or bonus, widening the hours, removing something from the block list, loosening scrolling

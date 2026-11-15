@@ -1,6 +1,6 @@
 # FocusGuard privacy policy
 
-_Last updated: 7 November 2026_
+_Last updated: 15 November 2026_
 
 FocusGuard is built so that **nothing leaves your phone**.
 
@@ -14,15 +14,21 @@ FocusGuard uses Android's **Accessibility service** for one purpose: to limit Fa
 - Minutes of use of your blocked sites and apps per day, and minutes added to your allowed hours by breaks, kept for 7 days.
 - The start and end time of the latest scrolling break. Non-stop minutes are only kept in memory.
 - Your settings: daily limit, bonus minutes, allowed hours, block list, scrolling breaks, child mode and its always-blocked list, and your partner's WhatsApp number.
+- **Child mode only, activity report for the parent:** website names visited in Chrome (for example youtube.com)
+  with minutes, search words from Google, YouTube, Bing and DuckDuckGo searches in Chrome (incognito too), blocked
+  attempts, and time per app. Kept for **today and yesterday only**, deleted when child mode is turned off, and only
+  viewable with the parent's code. The child's home screen says that this report exists.
 - Partner unlock counters (last code used, wrong attempts).
 - The partner unlock secret, stored in the **Android Keystore**, where even FocusGuard can't read it back.
 
-Web addresses are checked in memory and **never stored or logged**.
+Outside the child-mode report, web addresses are checked in memory and **never stored**. Nothing is ever written to
+the system log.
 
 ## What the app sends
 **Nothing.** FocusGuard has no internet permission, no accounts, no ads and no analytics or crash reporting.
 When you tap "Ask partner on WhatsApp", WhatsApp opens with a message that **you** choose to send.
-It never contains a code.
+It never contains a code. In child mode, "Send to parent on WhatsApp" opens WhatsApp with the day's report summary,
+which the parent chooses to send.
 
 ## Deleting your data
 Uninstalling FocusGuard, or **Settings › Apps › FocusGuard › Storage › Clear data**, deletes everything above.
